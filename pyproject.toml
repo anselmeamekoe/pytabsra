@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skorch_tabsra"
+version = "0.0.1"
+authors = [
+  { name="Kodjo Mawuena AMEKOE", email="amekoekodjomawuena@gmail.com" },
+]
+description = "TabSRA model"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "torch>=1.12.1",
+    "einops>=0.4.1",
+    "skorch>=0.15.0"
+]
+[project.urls]
+Homepage = "https://github.com/anselmeamekoe/pytabsra"
+Issues = "https://github.com/anselmeamekoe/pytabsra/issues"
