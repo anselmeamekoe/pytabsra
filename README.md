@@ -1,5 +1,7 @@
 # skorch tabsra
+
 Python TabSRA package for TabSRA: An Attention based Self-Explainable Model for Tabular Learning
+
 ## Installation 
 ```pip install skorch-tabsra==0.0.1```
 ## Usage 
@@ -77,5 +79,9 @@ _ = TabSRA.fit(X_train_,Y_train_)
 
 ```get_weights()```: Returns the regression coefficients of the downstream linear part of the model
 
-
 For remaining list of methods, please refer to https://skorch.readthedocs.io/en/stable/regressor.html
+
+## Useful links
+[Regression example](https://github.com/anselmeamekoe/pytabsra/blob/main/notebooks/Synthetic3_Regression_Example.ipynb)
+
+[Bank Churn Classification example](https://github.com/anselmeamekoe/pytabsra/blob/main/notebooks/BankChurn_BinaryClassificationNet_ColumnTransfo_hidden1_paper.ipynb)
