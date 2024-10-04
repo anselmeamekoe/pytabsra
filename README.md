@@ -1,6 +1,6 @@
 # skorch tabsra
 
-Python TabSRA package for TabSRA: An Attention based Self-Explainable Model for Tabular Learning
+Python package for TabSRA: An Attention based Self-Explainable Model for Tabular Learning
 
 ## Installation 
 ```pip install skorch-tabsra==0.0.1```
